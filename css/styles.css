@@ -216,7 +216,7 @@ select.form-field { background-image: url("data:image/svg+xml,%3Csvg xmlns='http
 .nav-links a:hover, .nav-links a.active { color: var(--bg); }
 .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
 .nav-cta { display: none; }
-@media (min-width: 768px) { .nav-cta { display: inline-flex; } }
+@media (min-width: 768px) { .nav-cta { display: inline-flex; align-items: center; justify-content: center; text-align: center; } }
 
 /* Hamburger */
 .hamburger {
