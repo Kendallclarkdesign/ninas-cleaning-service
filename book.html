@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Cleaning | Nina's Cleaning Service | Free Quote</title>
+  <meta name="description" content="Book a cleaning with Nina's Cleaning Service in Bernville, PA. Free quote. Nina responds within 24 hours. Regular, deep, move-out, and floor cleaning available.">
+  <link rel="canonical" href="https://kendallclarkdesign.github.io/ninas-cleaning-service/book.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <main class="page-content page-content-bottom">
+
+    <section>
+      <div class="container">
+
+        <div class="book-grid">
+
+          <!-- Trust Column -->
+          <div class="book-trust fade-up">
+            <div>
+              <span class="eyebrow">Get In Touch</span>
+              <h1 style="font-size:clamp(32px,5vw,48px)">Book a Cleaning</h1>
+              <div class="hero-stars" style="margin-top:.75rem">
+                <span class="stars">★★★★★</span>
+                <span class="rating" style="color:var(--text-muted)">4.9 · Nina responds in 24hrs</span>
+              </div>
+              <p style="color:var(--text-muted);margin-top:.75rem;font-size:14px">Fill out the form and Nina will be in touch within 24 hours with a custom quote for your home.</p>
+            </div>
+
+            <div class="book-trust-review">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">"Nina does a fantastic job cleaning my townhome. The kitchen and bathrooms are spotless. The floors shine. Rugs are completely clean. She brings her own professional equipment."</p>
+              <div class="review-author">Elizabeth Tang</div>
+            </div>
+
+            <div class="guarantee-inner" style="background:var(--accent-light);padding:20px;border-radius:var(--radius-md);border:1px solid var(--border)">
+              <span class="guarantee-icon" style="font-size:24px">🛡️</span>
+              <div>
+                <div class="guarantee-title">Satisfaction Guaranteed</div>
+                <div class="guarantee-sub">Not happy? Nina will make it right.</div>
+              </div>
+            </div>
+
+            <div style="font-size:13px;color:var(--text-muted);display:flex;align-items:center;gap:8px">
+              <span>⏱</span>
+              <span>Nina responds to all requests within 24 hours.</span>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="book-form fade-up">
+            <h2>Request a Quote</h2>
+            <form id="booking-form" class="form-stack" action="https://formspree.io/f/xvznarag" method="POST" novalidate>
+
+              <!-- Formspree config -->
+              <input type="hidden" name="_subject" value="New Booking Request from Nina's Cleaning Service Website">
+              <input type="hidden" name="_next" value="thank-you.html">
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" class="form-field" placeholder="Jane Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" class="form-field" placeholder="(555) 555-5555" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" class="form-field" placeholder="jane@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Type *</label>
+                <select id="service" name="service" class="form-field" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="regular">Regular Home Cleaning</option>
+                  <option value="deep">Deep Cleaning</option>
+                  <option value="movein">Move In Cleaning</option>
+                  <option value="moveout">Move Out Cleaning</option>
+                  <option value="postconstruction">Post-Construction Cleaning</option>
+                  <option value="floors">Floor Cleaning Specialty</option>
+                  <option value="unsure">Not Sure Yet</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="area">Your Town / General Area *</label>
+                <input type="text" id="area" name="area" class="form-field" placeholder="e.g. Bernville, Womelsdorf" required>
+              </div>
+
+              <div class="form-group">
+                <label for="notes">Additional Notes (optional)</label>
+                <textarea id="notes" name="notes" class="form-field" placeholder="Anything Nina should know: home size, pets, specific areas of concern..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width:100%;justify-content:center;padding:16px">
+                Send My Request to Nina →
+              </button>
+              <p class="form-response-note">Nina responds within 24 hours. No commitment required.</p>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
